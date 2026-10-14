@@ -1,0 +1,16 @@
+{
+  "name": "mekina-market",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mekina Market multilingual parts marketplace landing site and lead intake API",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.4"
+  }
+}
